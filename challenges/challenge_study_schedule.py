@@ -5,7 +5,7 @@ def study_schedule(permanence_period, target_time):
 
     count = 0
 
-    if len(permanence_period) == 0 or not target_time:
+    if not target_time:
         return None
 
     if not all(all(isinstance(i, int) for i in tup)
@@ -14,9 +14,9 @@ def study_schedule(permanence_period, target_time):
 
     # Desestruturação no Python
     for begin, last in permanence_period:
-        print("tup", begin, last)
-        print("cond", begin <= target_time <= last)
+        # print("tup", begin, last)
+        # print("cond", begin <= target_time <= last)
         if begin <= target_time <= last:
             count += 1
-    print("count", count)
+    # print("count", count)
     return count
