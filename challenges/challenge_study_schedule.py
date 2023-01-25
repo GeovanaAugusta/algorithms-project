@@ -13,10 +13,10 @@ def study_schedule(permanence_period, target_time):
         return None
 
     # Desestruturação no Python
-    for begin, last in permanence_period:
-        # print("tup", begin, last)
-        # print("cond", begin <= target_time <= last)
-        if begin <= target_time <= last:
+    for first, second in permanence_period:
+        # print("tup", first, second)
+        # print("cond", first <= target_time <= second)
+        if first <= target_time <= second:
             count += 1
     # print("count", count)
     return count
