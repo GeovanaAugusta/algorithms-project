@@ -20,3 +20,8 @@ def study_schedule(permanence_period, target_time):
             count += 1
     # print("count", count)
     return count
+
+# SOURCE
+# 1
+# Verificar se todos os itens de um array de tuplas tem o mesmo tipo
+# https://stackoverflow.com/questions/13252333/check-if-all-elements-of-a-list-are-of-the-same-type

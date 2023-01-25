@@ -2,8 +2,8 @@
 # O processo para executar tal função recursiva é chamado de recursividade.
 
 def is_palindrome_recursive(word, low_index, high_index):
-    print(word)
-    print("low_index", low_index, "high_index", high_index)
+    # print(word)
+    # print("low_index", low_index, "high_index", high_index)
 
     if not word or word == '':
         return False
@@ -11,7 +11,7 @@ def is_palindrome_recursive(word, low_index, high_index):
     if word != word[::-1]:
         return False
 
-    print(low_index > high_index)
+    # print(low_index > high_index)
     if low_index > high_index:
         return True
 
