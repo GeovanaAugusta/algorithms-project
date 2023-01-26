@@ -27,14 +27,9 @@ def verify_duplicate_num(nums):
         return False
 
     if len(duplicatas) == 1:
-        visto = set()
-
-    for num in nums:
-
-        if num in visto:
-            return num
-
-        visto.add(num)
+        print(len(duplicatas))
+        print(validation(nums))
+        return validation(nums)
 
     # Retorne False se a função receber como parâmetro uma lista
     # sem números repetidos
@@ -58,10 +53,7 @@ def find_duplicate(nums):
     if any(i < 0 for i in nums):
         return False
 
-    if verify_duplicate_num(nums):
-        return validation(nums)
-
-    return False
+    return verify_duplicate_num(nums)
 
 
 # SOURCE
