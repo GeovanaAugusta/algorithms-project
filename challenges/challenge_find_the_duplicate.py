@@ -61,3 +61,5 @@ def find_duplicate(nums):
 # 5
 
 # https://www.w3schools.com/python/ref_keyword_del.asp#:~:text=The%20del%20keyword%20is%20used,parts%20of%20a%20list%20etc.
+# https://stackoverflow.com/questions/4843173/how-to-check-if-type-of-a-variable-is-string
+# https://stackoverflow.com/questions/15993583/python-identify-a-negative-number-in-a-list
